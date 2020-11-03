@@ -228,6 +228,16 @@ hr {
 }
 
 
+.sec2-txt{
+  color: #fff;
+  font-weight: bold;
+  font-size: 28px;
+}
+.sec2-desc{
+  color: grey;
+  text-align: justify;
+}
+
 /* Width and Height */
 @media (min-width: 576px) {
   .w-sm-25 {
@@ -2125,7 +2135,7 @@ hr {
 .page-hero-section {
   position: relative;
   height: auto;
-  background-color: #252f42;
+  background-color: #000;
 }
 
 .page-hero-section h1 {
@@ -2137,6 +2147,11 @@ hr {
   position: absolute;
   margin-top: 5%;
   margin-left: 13%;
+}
+
+.background{
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -2871,7 +2886,6 @@ height: 10%;
 .slider {
   padding-top: 6.375rem;
   padding-bottom: 6.5rem;
-  background-color: #fbfbfb;
 }
 
 .slider h2 {
@@ -2928,10 +2942,11 @@ height: 10%;
 
 .slider .testimonial-text {
   margin-bottom: 0.625rem;
+  color: white;
 }
 
 .slider .testimonial-author {
-  color: #484a46;
+  color: #fff;
 }
 
 .logo{
@@ -3050,16 +3065,4 @@ height: 10%;
 .wave1{
     height: 10%;
     margin-bottom: -12%;
-}
-
-@media only screen and (max-width: 1280px){
-.wave1 {
-    margin-bottom: -15%;
-}
-}
-
-@media only screen and (max-width: 1024px){
-.wave1 {
-    display: none;
-}
 }
