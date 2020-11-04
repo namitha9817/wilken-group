@@ -2108,7 +2108,7 @@ hr {
 }
 
 .navbar-expand-lg.navbar-floating.navbar-dark {
-  background-color: #252f42;
+  background-color: #000;
   box-shadow: 0 1px 6px rgba(56, 51, 64, 0.1);
 }
 
@@ -3007,7 +3007,16 @@ height: 10%;
     margin-top: 45%;
 }
 .page-hero-section {
-    height: 100vh;
+    height: auto;
+}
+
+.fg-white {
+    margin-top: 0%;
+}
+
+.page-section {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .page-hero-section h1 {
@@ -3019,7 +3028,7 @@ height: 10%;
     }
 
 .wave{
-    margin-top: 30%;
+    margin-top: 0%;
   }
 #particles-js{
   height: 75vh;
@@ -3041,7 +3050,7 @@ height: 10%;
 }
 @media only screen and (max-width: 376px) {
 .wave {
-    margin-top: 33%;
+    margin-top: 0%;
 }
 .company {
     margin-top: -60%;
@@ -3061,8 +3070,4 @@ height: 10%;
 .page-hero-section h1 {
     font-size: 1.9rem;
 }
-}
-.wave1{
-    height: 10%;
-    margin-bottom: -12%;
 }
