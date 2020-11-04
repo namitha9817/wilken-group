@@ -3010,6 +3010,10 @@ height: 10%;
     height: auto;
 }
 
+.pad{
+  margin-top: 15%;
+}
+
 .fg-white {
     margin-top: 0%;
 }
